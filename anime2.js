@@ -23,7 +23,7 @@ setInterval(opacityAnimate, 300);
 
 
 
-//また授業ではできませんでしたが、以下のように更に簡単に書くこともできます。
+//以下のように更に簡単に書くこともできる
 //var header = document.getElementById("header");
 //var vector = 0.05; // 不透明度の増分（負の値にもなる）
 //var opacity = 0; // 不透明度

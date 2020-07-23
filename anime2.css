@@ -5,4 +5,19 @@
 .back {
   color: red;
 }
-
+.roll {
+  display  : inline-block;
+  animation: rollkAnime 2.9s linear infinite;
+  color    : #00007f;
+  font-size: 100%
+}
+@keyframes rollkAnime{
+   50% {
+         color    : #66ff66;
+         transform: rotateY(180deg);
+       }
+  100% {
+         color    : #00007f;
+         transform: rotateY(360deg);
+       }
+}
